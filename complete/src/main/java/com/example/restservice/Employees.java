@@ -27,4 +27,8 @@ public class Employees {
         this.employees.add(employee);
     }
 
+    public void setEmployees(ArrayList<Employee> employees) {
+        this.employees = employees;
+    }
+
 }

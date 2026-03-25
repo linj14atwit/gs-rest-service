@@ -15,4 +15,8 @@ public class EmployeeManager {
     public Employees getEmployees() {
         return employees;
     }
+
+    public void addEmployee(Employee employee) {
+        this.employees.addEmployee(employee);
+    }
 }
